@@ -1,5 +1,3 @@
-# Age-Calculator
-Age Calculator using Javascript and we would calculate our age here!
 Age-Calculator-using-JavaScript
 To create an age calculator using JavaScript, you can use the Date object to determine the current date and subtract the user's birth date from the current date to calculate their age in years. JavaScript is a programming language commonly used to add interactivity and other dynamic features to websites. In conjunction with HTML and CSS, it is frequently used to develop web pages and applications that can respond to user input, regulate the behavior of page elements, and interact with other web services.
 
