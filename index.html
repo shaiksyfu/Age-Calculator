@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen -  Age Calculator using JavaScript</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="Age.js"></script>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+   <table>
+        <tbody>
+        <tr class="header">
+          <th>&nbsp;</th>
+          <h1>Let me calculate your age</h1>
+          <th>Year</th>
+          <th>Month</th>
+          <th>Day</th>
+        </tr>
+        <tr>
+       <th>Birth Date</th>
+          <td><input class="year" id="FromYear"  placeholder="YYYY" value=""></td>
+          <td><input class="year" id="FromMonth" placeholder="MM" value=""></td>
+          <td><input class="year" id="FromDay"   placeholder="DD" value=""></td>
+        </tr>
+
+        <tr>
+          <th colspan="4">
+            <button class="button-57" id="calculateDiff" onclick="calculateDiff()"><span class="text"></span><span>Calculating</span>Calculate</button>
+          </th>
+        </tr>
+        <tr colspan="4">
+          <th>You are <div id="result"></div></th>
+      </tr>
+      </tbody>
+    </table>
+<!-- partial -->
+  
+</body>
+</html>
